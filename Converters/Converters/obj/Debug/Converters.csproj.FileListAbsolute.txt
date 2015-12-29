@@ -1,0 +1,15 @@
+C:\Courses\edx\DEV206.2x\Converters\Converters\bin\Debug\Converters.exe.config
+C:\Courses\edx\DEV206.2x\Converters\Converters\bin\Debug\Converters.exe
+C:\Courses\edx\DEV206.2x\Converters\Converters\bin\Debug\Converters.pdb
+C:\Courses\edx\DEV206.2x\Converters\Converters\obj\Debug\Converters.csprojResolveAssemblyReference.cache
+C:\Courses\edx\DEV206.2x\Converters\Converters\obj\Debug\MainWindow.g.cs
+C:\Courses\edx\DEV206.2x\Converters\Converters\obj\Debug\App.g.cs
+C:\Courses\edx\DEV206.2x\Converters\Converters\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Courses\edx\DEV206.2x\Converters\Converters\obj\Debug\Converters_MarkupCompile.cache
+C:\Courses\edx\DEV206.2x\Converters\Converters\obj\Debug\Converters_MarkupCompile.lref
+C:\Courses\edx\DEV206.2x\Converters\Converters\obj\Debug\MainWindow.baml
+C:\Courses\edx\DEV206.2x\Converters\Converters\obj\Debug\Converters.g.resources
+C:\Courses\edx\DEV206.2x\Converters\Converters\obj\Debug\Converters.Properties.Resources.resources
+C:\Courses\edx\DEV206.2x\Converters\Converters\obj\Debug\Converters.csproj.GenerateResource.Cache
+C:\Courses\edx\DEV206.2x\Converters\Converters\obj\Debug\Converters.exe
+C:\Courses\edx\DEV206.2x\Converters\Converters\obj\Debug\Converters.pdb

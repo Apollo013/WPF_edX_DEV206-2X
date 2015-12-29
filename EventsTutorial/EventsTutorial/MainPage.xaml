@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="EventsTutorial.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EventsTutorial"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <local:ClickCircle Click="Circle_Click" Height="200" Width="200" Background="Orange"/>
+        <Border Background="DarkBlue" Tapped="Tapped_Handle" BorderThickness="20" Margin="100">
+            <StackPanel Background="LightBlue" Margin="100" Tapped="Tapped_Handle">
+                <Button Margin="100" Content="Click Me" FontSize="30" Tapped="Tapped_Handle"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

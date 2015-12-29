@@ -1,0 +1,1 @@
+C:\Courses\edx\DEV206.2x\Animations\Animations\Animations.csproj;x86

@@ -1,0 +1,1 @@
+C:\Courses\edx\DEV206.2x\XamlProperties\Notify\Notify.csproj;x86

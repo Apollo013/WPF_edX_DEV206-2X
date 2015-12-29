@@ -1,0 +1,25 @@
+﻿<Window x:Class="Converters.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Converters"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <local:MainPageViewModel/>
+    </Window.DataContext>
+    <Window.Resources>
+        <local:BooleanToColorConverter x:Key="BooleanToColorConverter"/>
+    </Window.Resources>
+    <Grid>
+        <StackPanel>
+            <ToggleButton x:Name="ToggleSelect" Content="On/Off" IsChecked="{Binding IsActive, Mode=TwoWay}"/>
+            <Rectangle Width="200" Height="200">
+                <Rectangle.Fill>
+                    <SolidColorBrush Color="{Binding IsActive , Converter={StaticResource BooleanToColorConverter}}"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </StackPanel>
+    </Grid>
+</Window>
